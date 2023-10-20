@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;font-family: 'Almendra', sans-serif;font-family: 'Playfair Display', sans-serif;
+    color: #EBE2E2;
+    font-size: 20px; 
+    /* общее в сайте */
+} 
+.header{
+    background-color: #5f3d3d;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* фон */
+
+} 
+h1{
+    margin-left: 700px;
+    margin-top: 190px;
+    /* заголовок */
+}
+h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    /* заголовки */
+}
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: 215px;
+    margin-right: 215px;
+    /* отступы слева и справа */
+}
+
+header a {
+    color: #EBE2E2;
+}
+.logo{
+    margin-right: 358px;
+    /* расстояние от лого до навигации */
+}
+.menu {
+    display: flex;
+    padding-top: 18px;
+    /* навигация вниз */
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    /* настройки текста */
+}
+.menu li {
+    margin-right: 50px;
+    margin-left: 0px;
+    /* расстояние между буквами */
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #342317;
+    /* выравнивание */
+}
+.offer img[src="img/image2.png"] {
+    margin-left: 1150px;
+    margin-top: -49px;
+    /* пирог с мороженым */
+}
+.background{
+    margin-top: -600px;
+}
+  /* картина французского художника */
+
+h1{
+    margin-left: 700px;
+    margin-top: 20px;
+    /* заголовок */
+}
+.offer img[src="img/picture and  rectangle.svg"] {
+    margin-left: 1115px;
+    margin-top: -30 px;
+    /* картинка с квадратом */
+}
+.overlay{
+    background-image: url('img/shapes.png');
+    background-position: 400px;
+    margin-left: 580px;
+    margin-top: -105px;
+}
+.offer{
+    margin-top: 100px;letter-spacing: 0.1em
+
+}
+
+.offer h2{
+    font-size: 20px;
+    font-family: 'Playfair', sans-serif;
+}
+
+.offer h3{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    background-color: #342317;
+    width: 1903px;
+    height: 100px;
+    margin-top: -970px;
+}
+.line{
+    background-color: #342317;
+    margin-top: 825px;
+    width: 1903px;
+    height: 60px;
+}
+.about{
+    display: flex;
+    background-color: #e3d6b3;
+}
+.about h2{
+    margin-left: 650px;
+    color: #342317;
+    margin-top: 40px;
+}
+.text{
+    color: #342317;
+    margin-top: 40px;
+}
+.picture{
+    float: left;
+    display: flex;
+    align-items: center;
+}
