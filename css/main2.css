@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;font-family: 'Almendra', sans-serif;font-family: 'Playfair Display', sans-serif;
+    color: #EBE2E2;
+    font-size: 20px; 
+    /* общее в сайте */
+} 
+.header{
+    background-color: #8d6d6d;
+    min-height: 840px;
+    width: 100%;
+    height: auto;
+    /* фон */
+} 
+h1{
+    margin-left: -1000px;
+    font-family: 'Playfair Display',sans-serif;
+    margin-top: 400px;
+    /* заголовок */
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin-left: 215px;
+    margin-right: 215px;
+    /* ну тута вааще все */
+    /* отступы слева и справа */
+}
+header a {
+    color: #EBE2E2;
+}
+.logo{
+    margin-right: 358px;
+    /* расстояние от лого до навигации */
+}
+.menu {
+    display: flex;
+    font-family:'Montserrat',sans-serif; 
+    /* навигация вниз */
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    /* настройки текста */
+}
+.menu li {
+    margin-right: 50px;
+    margin-left: 0px;
+    /* расстояние между буквами */
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    /* выравнивание */
+}
+
+h1{
+    font-family: Playfair Display;
+    white-space: nowrap;
+    margin-top: 165px;
+    /* заголовок */
+}
+.offer{
+    margin-top: 50px;letter-spacing: 0.1em;
+    margin-left: -290px;
+    /* текст */
+}
+.aboutp{
+    margin-top: 500px;
+    margin-left: -1500px;
+    float: left;
+    margin: 7px 0 7px 7px;
+}
+.text img[src="img/tart.jpg"]{
+    margin-left: 900px;
+    margin-top: -500px;
+}
+.footer { 
+    max-width: 100%;
+    height: 400px;
+    vertical-align: top;
+    overflow: hidden;
+    margin-right: 200px;
+    /* подвал */
+}
+.img[src="img/Group 7 (1).svg"]{
+    margin-top: -500px;
+}
